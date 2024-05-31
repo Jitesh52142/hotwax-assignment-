@@ -18,7 +18,7 @@ Ans. To change product description in product table , use the SQL UPDATE stateme
 
 #Q5. Display returnable products ?
 Ans. To display returnable products , use the SELECT statement along with WHERE CLAUSE , then the SQL query will be :
-(SELECT * FROM products WHERE product_returnable = 'Yes';)
+(select product_id ,product_name ,product_description from products where product_retuned = "yes";)
 
 #Q6. Generate er diagram ?
 Ans. ER Diagram is attached with the repo.........
